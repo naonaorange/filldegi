@@ -657,12 +657,12 @@ static void camera_init(void)
 			m_camera_init.pinMosi = 25;
 			m_camera_init.pinCsn = 32 + 9;
 	#else
-			m_camera_init.pinScl = 27;
-			m_camera_init.pinSda = 26;
-			m_camera_init.pinSck = 32 + 15;
-			m_camera_init.pinMiso = 32 + 14;
-			m_camera_init.pinMosi = 32 + 13;
-			m_camera_init.pinCsn = 32 + 12;
+			m_camera_init.pinScl = 23;
+			m_camera_init.pinSda = 22;
+			m_camera_init.pinSck = 21;
+			m_camera_init.pinMiso = 20;
+			m_camera_init.pinMosi = 19;
+			m_camera_init.pinCsn = 15;
 	#endif
 #elif defined(BOARD_PCA10040)
     m_camera_init.pinScl = 27;
